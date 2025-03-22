@@ -1,4 +1,3 @@
-#progra for bubble sort
 def bubble_sort(arr):
     n=len(arr)
     for i in range(n):
@@ -7,5 +6,7 @@ def bubble_sort(arr):
                 arr[j],arr[j+1]=arr[j+1],arr[j]
     return arr
 
-arr=[64,34,25,12,22,11,9]
+arr=[56,23,45,78,12,34,67,89,90]
 print("Sorted array is: ",bubble_sort(arr)) 
+
+
